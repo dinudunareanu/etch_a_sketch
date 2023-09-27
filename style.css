@@ -26,6 +26,6 @@ body {
     height: 30px;
 }
 
-.square:hover {
-    background-color: cadetblue;
+.black {
+    background-color: black;
 }
