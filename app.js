@@ -11,11 +11,11 @@ container.addEventListener('click', () => {
 genBtn.addEventListener('click', () => {
     //reset board
     document.querySelector('.container').innerHTML = '';
-    //generate board
     
+    //generate board
     let numberOfSquares = document.querySelector('#gen').value;
     console.log(numberOfSquares);
-    if (numberOfSquares === "0" || numberOfSquares === "" || numberOfSquares > 250) {
+    if (numberOfSquares === "0" || numberOfSquares === "" || numberOfSquares > 100) {
         alert("Invalid input!");
     }
     else {
